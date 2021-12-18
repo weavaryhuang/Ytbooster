@@ -9,6 +9,7 @@ drivers = []
 for i in range(no_of_driver):
     drivers.append(webdriver.Chrome('Chromedriver\chromedriver.exe'))
     drivers[i].get(url)
+    print("test")
 
 while True:
     time.sleep(time_to_refresh)
